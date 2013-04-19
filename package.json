@@ -1,5 +1,6 @@
 {
   "name": "task-emitter",
+  "author": "Ritchie Martori",
   "description": "task-emitter",
   "version": "0.0.1",
   "scripts": { 
