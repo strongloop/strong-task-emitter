@@ -1,7 +1,7 @@
 {
-  "name": "task-emitter",
+  "name": "sl-task-emitter",
   "author": "Ritchie Martori",
-  "description": "task-emitter",
+  "description": "Perform an unkown number of tasks recursively and in parallel.",
   "version": "0.0.1",
   "scripts": { 
     "test": "mocha"

@@ -1,13 +1,13 @@
-# task-emitter
+# sl-task-emitter
 v0.0.1
 
 ## Install
 
-    slnode install task-emitter
+    slnode install sl-task-emitter
 
 ## Purpose
 
-Perform complex parallel operations recursively (such as walking a directory tree or making recursive http requests). Supports inheritence similarly to `EventEmitter` to allow classes to encapsulate recursive behavior while maintaining extensibility.
+Perform an unkown number of tasks recursively and in parallel. For example, reading all the files in a nested set of directories. Built in support for [domains](http://nodejs.org/api/domain.html) by inheriting directly from `EventEmitter`.
     
 ## Example
 
