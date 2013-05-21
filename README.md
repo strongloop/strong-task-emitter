@@ -284,3 +284,6 @@ Emitted after a task has been completed.
       total: 8,
       task: 'foo'
     }
+
+
+#Test
