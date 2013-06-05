@@ -24,6 +24,7 @@ The following example shows the basic API for a TaskEmitter.
       .task('request', request, 'http://yahoo.com')
       .task('request', request, 'http://apple.com')
       .task('request', request, 'http://youtube.com')
+      // listen for when a task completes by providing the task name
       .on('request', function (url, res, body) {
         results.push(Buffer.byteLength(body));
       })
@@ -48,6 +49,7 @@ The next example highlights how TaskEmitter can be used to simplify recursive as
     var te = new TaskEmitter();
 
     te
+      // specify a task name
       .task('friends', fetch, 'me')
       .on('friends', function (user, url) {
         if(url !== 'me') {
