@@ -6,10 +6,15 @@
   "scripts": { 
     "test": "mocha"
   },
+  "license": "Apache 2",
   "dependencies": {
     "debug": "latest"
   },
   "devDependencies": {
     "mocha": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/strongloop/sl-task-emitter.git"
   }
 }
