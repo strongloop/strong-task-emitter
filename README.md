@@ -1,9 +1,8 @@
-# sl-task-emitter
-v0.0.1
+# strong-task-emitter
 
 ## Install
 
-    slnode install sl-task-emitter
+    slnode install strong-task-emitter
 
 ## Purpose
 
