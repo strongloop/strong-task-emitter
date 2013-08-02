@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/strongloop/sl-task-emitter.git"
+    "url": "http://github.com/strongloop/strong-task-emitter.git"
   }
 }
