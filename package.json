@@ -4,6 +4,10 @@
   "description": "Perform an unknown number of tasks recursively and in parallel.",
   "version": "0.0.4",
   "scripts": { 
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/"
+    },
+    "coverage": "mocha -r blanket -R html-cov > coverage_strong-task-emitter.html",
     "test": "mocha"
   },
   "license": "MIT",
@@ -11,6 +15,7 @@
     "debug": "latest"
   },
   "devDependencies": {
+    "blanket": "latest",
     "mocha": "latest"
   },
   "repository": {
