@@ -3,7 +3,7 @@
   "author": "Ritchie Martori",
   "description": "Perform an unknown number of tasks recursively and in parallel.",
   "version": "0.0.4",
-  "scripts": { 
+  "scripts": {
     "blanket": {
       "pattern": "//^((?!(node_modules|test)).)*$/"
     },
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "debug": "latest"
+    "debug": "~0.7.2"
   },
   "devDependencies": {
     "blanket": "latest",
