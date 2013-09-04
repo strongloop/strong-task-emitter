@@ -2,7 +2,7 @@
   "name": "strong-task-emitter",
   "author": "Ritchie Martori",
   "description": "Perform an unknown number of tasks recursively and in parallel.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "blanket": {
       "pattern": "//^((?!(node_modules|test)).)*$/"
@@ -15,8 +15,8 @@
     "debug": "~0.7.2"
   },
   "devDependencies": {
-    "blanket": "latest",
-    "mocha": "latest"
+    "blanket": "~1.1.5",
+    "mocha": "~1.12.1"
   },
   "repository": {
     "type": "git",
