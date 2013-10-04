@@ -2,7 +2,7 @@
   "name": "strong-task-emitter",
   "author": "Ritchie Martori",
   "description": "Perform an unknown number of tasks recursively and in parallel.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "coverage": "istanbul cover node_modules/.bin/_mocha && istanbul report cobertura",
     "ci-test": "mocha -R xunit > xunit.xml",
