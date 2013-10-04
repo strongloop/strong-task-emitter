@@ -13,8 +13,8 @@
     "debug": "~0.7.2"
   },
   "devDependencies": {
-    "mocha": "~1.12.1",
-    "istanbul": "~0.1.44"
+    "istanbul": "~0.1.44",
+    "mocha": "~1.12.1"
   },
   "repository": {
     "type": "git",
