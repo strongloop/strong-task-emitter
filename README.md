@@ -4,6 +4,10 @@
 
     slnode install strong-task-emitter
 
+or
+
+    npm install strong-task-emitter
+
 ## Purpose
 
 Perform an unkown number of tasks recursively and in parallel. For example, reading all the files in a nested set of directories. Built in support for [domains](http://nodejs.org/api/domain.html) by inheriting directly from `EventEmitter`.
