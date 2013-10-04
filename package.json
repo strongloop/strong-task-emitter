@@ -4,10 +4,7 @@
   "description": "Perform an unknown number of tasks recursively and in parallel.",
   "version": "0.0.5",
   "scripts": {
-    "blanket": {
-      "pattern": "//^((?!(node_modules|test)).)*$/"
-    },
-    "coverage": "mocha -r blanket -R html-cov > coverage_strong-task-emitter.html",
+    "coverage": "istanbul cover node_modules/.bin/_mocha && istanbul report cobertura",
     "test": "mocha"
   },
   "license": "MIT",
@@ -15,8 +12,8 @@
     "debug": "~0.7.2"
   },
   "devDependencies": {
-    "blanket": "~1.1.5",
-    "mocha": "~1.12.1"
+    "mocha": "~1.12.1",
+    "istanbul": "~0.1.44"
   },
   "repository": {
     "type": "git",
