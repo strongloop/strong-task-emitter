@@ -5,6 +5,7 @@
   "version": "0.0.5",
   "scripts": {
     "coverage": "istanbul cover node_modules/.bin/_mocha && istanbul report cobertura",
+    "ci-test": "mocha -R xunit > xunit.xml",
     "test": "mocha"
   },
   "license": "MIT",
