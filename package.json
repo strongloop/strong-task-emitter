@@ -6,7 +6,10 @@
   "scripts": {
     "test": "mocha"
   },
-  "license": "MIT",
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url": "https://github.com/strongloop/strong-task-emitter/blob/master/LICENSE"
+  },
   "dependencies": {
     "debug": "~0.7.2"
   },
