@@ -2,20 +2,18 @@
   "name": "strong-task-emitter",
   "author": "Ritchie Martori",
   "description": "Perform an unknown number of tasks recursively and in parallel.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
-    "blanket": {
-      "pattern": "//^((?!(node_modules|test)).)*$/"
-    },
-    "coverage": "mocha -r blanket -R html-cov > coverage_strong-task-emitter.html",
     "test": "mocha"
   },
-  "license": "MIT",
+  "license": {
+    "name": "Dual Artistic/StrongLoop",
+    "url": "https://github.com/strongloop/strong-task-emitter/blob/master/LICENSE"
+  },
   "dependencies": {
     "debug": "~0.7.2"
   },
   "devDependencies": {
-    "blanket": "~1.1.5",
     "mocha": "~1.12.1"
   },
   "repository": {

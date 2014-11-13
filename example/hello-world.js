@@ -19,4 +19,4 @@ te
   .once('done', function () {
     console.log('done.');
   })
-  .task(fs, 'readdir', './sample-fools');
+  .task(fs, 'readdir', './sample-files');
