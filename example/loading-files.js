@@ -10,9 +10,9 @@ function Loader() {
   this.path = path;
   this.files = {};
 
-  this.on('readdir', function (p, files) {
-    files.forEach(function (f) {
-      this.task(fs, 'stat', path);
+  this.on('readdir', function (dir, files) {
+    files.forEach(function (file) {
+      this.task(fs, 'stat', path.join(dir, file));
     }.bind(this));
   });
 
@@ -44,7 +44,7 @@ Loader.prototype.load = function (path, fn) {
   }
   
   this.task(fs, 'readdir', path);
-}
+};
 
 // usage
 
@@ -54,7 +54,7 @@ console.log('start');
 
 l.on('progress', function (d) {
   console.log(d);
-})
+});
 
 l.load('sample-files', function (err, files) {
   console.log(err || files);
