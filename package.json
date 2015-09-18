@@ -6,10 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "license": {
-    "name": "Dual Artistic/StrongLoop",
-    "url": "https://github.com/strongloop/strong-task-emitter/blob/master/LICENSE"
-  },
+  "license": "Artistic-2.0",
   "dependencies": {
     "debug": "~0.7.2"
   },
