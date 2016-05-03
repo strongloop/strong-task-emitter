@@ -2,7 +2,7 @@
   "name": "strong-task-emitter",
   "author": "Ritchie Martori",
   "description": "Perform an unknown number of tasks recursively and in parallel.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "scripts": {
     "test": "mocha"
   },

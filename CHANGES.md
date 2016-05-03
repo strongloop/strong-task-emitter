@@ -1,3 +1,15 @@
+2016-05-03, Version 0.0.7
+=========================
+
+ * relicense as Artistic-2.0 only (Ryan Graham)
+
+ * Refer to licenses with a link (Sam Roberts)
+
+ * Use strongloop conventions for licensing (Sam Roberts)
+
+ * Fix bad CLA URL in CONTRIBUTING.md (Ryan Graham)
+
+
 2014-11-13, Version 0.0.6
 =========================
 
@@ -24,10 +36,6 @@
  * Create api.md (Rand McKinney)
 
  * remove unused blanket dependencies (Sam Roberts)
-
-
-2013-09-04, Version 0.0.5
-=========================
 
  * Tidy up package.json for LoopBack 1.0.0 (Raymond Feng)
 
