@@ -1,3 +1,11 @@
+2018-03-22, Version 0.0.8
+=========================
+
+ * chore: upgrade deps (Raymond Feng)
+
+ * Update URLs in CONTRIBUTING.md (#6) (Ryan Graham)
+
+
 2016-05-03, Version 0.0.7
 =========================
 
